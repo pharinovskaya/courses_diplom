@@ -175,5 +175,6 @@ extension PlayerSSViewController: UISearchBarDelegate {
         searching = false
         searchBar.text = ""
         playersTable.reloadData()
+        searchBar.resignFirstResponder()
     }
 }

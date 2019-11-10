@@ -10,7 +10,7 @@
         <!--Table-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TableViewController" customModule="MyNHL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TableViewController" customModule="NHL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                                 <color key="sectionIndexColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="teamsCellID" rowHeight="50" id="gQg-gE-Z5N" customClass="TeamsTableViewCell" customModule="MyNHL" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="teamsCellID" rowHeight="50" id="gQg-gE-Z5N" customClass="TeamsTableViewCell" customModule="NHL" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gQg-gE-Z5N" id="GEG-Dy-Rtu">
@@ -135,7 +135,7 @@
         <!--Team-->
         <scene sceneID="lQK-HQ-adu">
             <objects>
-                <viewController storyboardIdentifier="boardTeamID" id="eFm-ir-5dr" customClass="TeamViewController" customModule="MyNHL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="boardTeamID" id="eFm-ir-5dr" customClass="TeamViewController" customModule="NHL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qVW-Yk-LRK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -273,7 +273,7 @@
         <!--Set View Controller-->
         <scene sceneID="7xV-Hb-Lnn">
             <objects>
-                <viewController id="SgJ-S4-8r9" customClass="SetViewController" customModule="MyNHL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SgJ-S4-8r9" customClass="SetViewController" customModule="NHL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AUd-xm-JWz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -331,7 +331,7 @@
         <!--Main-->
         <scene sceneID="fRy-Kz-GdJ">
             <objects>
-                <viewController id="34d-LD-a07" customClass="MainViewController" customModule="MyNHL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="34d-LD-a07" customClass="MainViewController" customModule="NHL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B1a-eC-hv4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -345,7 +345,7 @@
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last 5 Stanley Cup Champions:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMt-ku-7oo">
-                                <rect key="frame" x="20" y="104" width="387" height="32"/>
+                                <rect key="frame" x="20" y="104" width="387" height="31.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -415,7 +415,7 @@
         <!--Players-->
         <scene sceneID="k5S-3C-awJ">
             <objects>
-                <viewController id="cEK-40-pZ9" customClass="PlayerSSViewController" customModule="MyNHL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cEK-40-pZ9" customClass="PlayerSSViewController" customModule="NHL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4eo-Og-TKW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -431,7 +431,7 @@
                                     <outlet property="delegate" destination="cEK-40-pZ9" id="Qa1-0Y-SFy"/>
                                 </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0qN-An-cKD">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0qN-An-cKD">
                                 <rect key="frame" x="0.0" y="144" width="414" height="743"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -490,7 +490,7 @@
         <!--Settings-->
         <scene sceneID="4VX-Y7-k2k">
             <objects>
-                <viewController id="mNh-0Y-UhN" customClass="SettingsViewController" customModule="MyNHL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mNh-0Y-UhN" customClass="SettingsViewController" customModule="NHL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R7k-eH-6E5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
